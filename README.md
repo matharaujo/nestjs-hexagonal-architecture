@@ -63,6 +63,16 @@ Essentially, if you are building a system that is expected to be long-lived, hav
 $ npm install
 ```
 
+## Compile And Run The Project With Docker
+
+```bash
+# build
+$ docker build -t image-name .
+
+# run
+$ docker run -p 8000:8000 image-name
+```
+
 ## Compile And Run The Project
 
 ```bash
